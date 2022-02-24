@@ -1,7 +1,9 @@
 import React from 'react';
 import PromotionCard from 'components/Promotion/Card/Card';
 
-const App = () =>  {
+
+const PagesPromotionsSearch = () => {
+
   const promotion = {
     "id": 1,
     "title": "Kit Notebook Acer Aspire 3 + Mochila Green, A315-41-R790, AMD Ryzen 3 2200U Dual Core",
@@ -18,7 +20,6 @@ const App = () =>  {
 
   return (
     <div
-      className="App"
       style={{
         maxWidth: 800,
         margin: '30px auto',
@@ -29,6 +30,7 @@ const App = () =>  {
       </div>
     </div>
   );
+  
 }
 
-export default App;
+export default PagesPromotionsSearch;
